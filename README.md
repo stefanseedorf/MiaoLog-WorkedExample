@@ -20,7 +20,7 @@ Use it as a template. Replace MiaoLog's content with your own product.
 
 Start each AI session with:
 
-> "Read the files in my spec/ folder. Then help me build: [user story from user-stories.md]."
+> "Read the files in this folder. Then help me build: [paste a user story from user-stories.md]."
 
 The agent reads your product overview, requirements, user roles, acceptance criteria,
 stack, and design — all at once. You do not need to paste context into every prompt.
