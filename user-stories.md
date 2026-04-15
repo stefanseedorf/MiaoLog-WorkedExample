@@ -5,10 +5,9 @@ A user story describes one thing a real user needs to do.
 Format: "As a [role], I want [action], so that [outcome]."
 It focuses on the user's goal — not on how the code works. -->
 
-<!-- WHAT ARE DONE CONDITIONS?
-Done conditions (also called acceptance criteria) are the things that must be true
-for a feature to count as finished. They are your checklist — and your stop signal
-when working with an AI coding agent.
+<!-- WHAT ARE ACCEPTANCE CRITERIA?
+Acceptance criteria are the things that must be true for a feature to count as finished.
+They are your checklist — and your stop signal when working with an AI coding agent.
 Paste them directly into your AI prompt: "Build this feature. Stop when all these
 conditions are true." -->
 
@@ -19,7 +18,7 @@ conditions are true." -->
 **As a volunteer feeder,** I want to record who fed which cat, when, and how much,
 so that other volunteers can check before feeding again.
 
-**Done conditions:**
+**Acceptance criteria:**
 - [ ] Volunteer can select a cat from a list (name + photo or emoji)
 - [ ] Volunteer can choose food type from a dropdown (Dry / Wet / Treats)
 - [ ] Volunteer can enter amount in grams (number field, required)
@@ -36,7 +35,7 @@ so that other volunteers can check before feeding again.
 **As a volunteer feeder,** I want to see when a cat was last fed before I feed it,
 so that I do not feed it twice.
 
-**Done conditions:**
+**Acceptance criteria:**
 - [ ] Volunteer can see the most recent feeding entry for any cat in under 5 taps from the home screen
 - [ ] The entry shows: who fed (volunteer name), when (relative time — "2 hours ago"), what was given (food type and amount)
 - [ ] If no feeding has been logged today, the entry shows "Not fed today" clearly in red
@@ -49,7 +48,7 @@ so that I do not feed it twice.
 **As a volunteer feeder,** I want to leave a note about a cat's health,
 so that the coordinator knows something is wrong.
 
-**Done conditions:**
+**Acceptance criteria:**
 - [ ] Volunteer can open any cat's profile and tap "Add health note"
 - [ ] Volunteer selects severity: OK / Watch / Urgent (required)
 - [ ] Volunteer writes a description (text field, required, max 500 characters)
@@ -65,7 +64,7 @@ so that the coordinator knows something is wrong.
 **As a group coordinator,** I want to see the feeding status of all cats today,
 so that I can make sure every cat has been fed before end of day.
 
-**Done conditions:**
+**Acceptance criteria:**
 - [ ] Coordinator sees a list of all cats with today's feeding status: Fed / Not fed
 - [ ] Cats that have NOT been fed today appear at the top of the list
 - [ ] Cats with an Urgent health note appear above other unfed cats
@@ -80,7 +79,7 @@ so that I can make sure every cat has been fed before end of day.
 **As a volunteer feeder,** I want to see my own feeding history,
 so that I can check how many sessions I have contributed this month.
 
-**Done conditions:**
+**Acceptance criteria:**
 - [ ] Volunteer can see a list of their own feeding entries, newest first
 - [ ] Each entry shows: cat name, date, food given
 - [ ] A count shows total feedings this month: "You have logged 14 feedings this month"

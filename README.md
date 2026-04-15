@@ -10,7 +10,7 @@ Use it as a template. Replace MiaoLog's content with your own product.
 | File | What it is |
 |---|---|
 | `product.md` | One paragraph: what the product does, who uses it, and why |
-| `user-stories.md` | What users need to do — with done conditions for each story |
+| `user-stories.md` | What users need to do — with acceptance criteria for each story |
 | `stack.md` | The tools the team chose and the reason for each choice |
 | `ui-spec.md` | What the app looks like — colours, fonts, screens, interactions |
 
@@ -20,7 +20,7 @@ Start each AI session with:
 
 > "Read the files in my spec/ folder. Then help me build: [user story from user-stories.md]."
 
-The agent reads your product description, your stack, your done conditions,
+The agent reads your product description, your stack, your acceptance criteria,
 and your design — all at once. You do not need to paste context into every prompt.
 
 ## What this folder is NOT
