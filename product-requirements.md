@@ -41,7 +41,7 @@ The result: cats are sometimes fed twice, sometimes not at all. Health concerns 
 
 ## Users
 
-Full role definitions and permission rules are in `roles.md`.
+Full role definitions and permission rules are in `user-roles.md`.
 
 | Role | Primary goal | How many |
 |---|---|---|

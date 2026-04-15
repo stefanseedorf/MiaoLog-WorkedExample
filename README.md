@@ -10,9 +10,9 @@ Use it as a template. Replace MiaoLog's content with your own product.
 | File | What it is |
 |---|---|
 | `product-requirements.md` | What it is, the problem, requirements, constraints, out of scope |
-| `roles.md` | Who the users are and what each role can do |
+| `user-roles.md` | Who the users are and what each role can do |
 | `user-stories.md` | Detailed user stories with acceptance criteria |
-| `stack.md` | The tools the team chose and the reason for each choice |
+| `technology-choices.md` | The tools the team chose and the reason for each choice |
 | `ui-spec.md` | Design system: colours, fonts, screen layouts, interaction patterns |
 
 ## How to use this with an AI coding agent
