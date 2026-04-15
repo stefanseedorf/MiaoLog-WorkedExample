@@ -63,13 +63,13 @@ Vant is a complete set of ready-made mobile interface elements: buttons, forms, 
 bottom sheets, pull-to-refresh lists, loading spinners. Every element is designed for
 a phone screen with large tap targets and smooth animations.
 
-Vant is made by Youzan, a Chinese e-commerce company. It is fully accessible from
-mainland China without a VPN and widely used in Chinese mobile apps.
+Vant is made by Youzan, one of China's largest e-commerce platforms, and is actively
+maintained with excellent documentation in both English and Chinese.
 
 We chose Vant because:
-- It handles the hard parts of mobile UI (swipe gestures, safe areas on iPhone, bottom nav)
-- It works without a VPN
-- It saves significant time compared to building components from scratch
+- It handles the hard parts of mobile UI out of the box: swipe gestures, iPhone safe areas, bottom navigation, pull-to-refresh
+- Every component is designed for touch — minimum 44px tap targets, smooth animations, native-feel interactions
+- It saves weeks of UI work compared to building components from scratch
 
 **Docs:** https://vant-ui.github.io/vant/
 
@@ -123,10 +123,10 @@ Supabase gives us:
 | **Auth (optional)** | Handles volunteer login without us writing authentication code |
 
 We chose Supabase because:
-- Accessible from mainland China on a normal university network
-- Free tier is enough (500 MB database, unlimited API requests on the free plan)
-- No server code to write — the API is generated automatically
-- The dashboard is easy to use for non-developers (useful for the coordinator)
+- The API is generated automatically from our database tables — no server code to write or maintain
+- Real-time subscriptions: the coordinator dashboard updates live when a volunteer logs a feeding, without any polling
+- Row-level security lets us control who can read or write each row — without building an authentication system from scratch
+- The dashboard is a full database editor — the coordinator can view and edit data directly without touching code
 
 **Docs:** https://supabase.com/docs
 
@@ -171,9 +171,9 @@ It connects to our GitHub repository. Every time we push code to `main`, Vercel
 builds and deploys automatically. The URL updates within 30 seconds.
 
 We chose Vercel because:
-- Free tier with no credit card
-- Automatic deploys from GitHub
-- Fast global CDN (works well from China)
+- Automatic deploys from GitHub — every push to `main` is live within 30 seconds
+- Every pull request gets its own preview URL — useful for showing progress to the team before merging
+- Free tier with no credit card required
 
 ---
 
@@ -182,8 +182,8 @@ We chose Vercel because:
 | Layer | Tool | Why |
 |---|---|---|
 | Frontend framework | Vue 3 | Team knows it |
-| Mobile components | Vant 4 | Mobile-first, China-accessible, saves build time |
+| Mobile components | Vant 4 | Touch-optimised, saves weeks of UI work |
 | Styling / branding | CSS custom properties | Theme Vant without a second framework |
 | Build tool | Vite | Fast, works with Vue 3, near-zero config |
-| Database + API | Supabase | Works in China, free, no server code needed |
-| Hosting | Vercel | Free, auto-deploys from GitHub |
+| Database + API | Supabase | Real-time, auto-generated API, no server code |
+| Hosting | Vercel | Free, auto-deploys, preview URL per branch |

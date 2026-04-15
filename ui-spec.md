@@ -71,8 +71,8 @@ your custom components use the `--color-*` tokens.
 
 ## Typography
 
-<!-- Google Fonts is blocked in mainland China. Use fonts.loli.net, which is a Google
-     Fonts mirror that is accessible without a VPN. -->
+<!-- fonts.loli.net mirrors Google Fonts with the same API and ensures the font
+     loads consistently for all team members. -->
 
 **Primary font: Nunito**
 
